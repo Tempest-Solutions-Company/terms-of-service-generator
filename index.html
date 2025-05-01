@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Free Terms of Service Generator for businesses. Create legally-sound ToS documents customized to your business type and jurisdiction. Supports e-commerce, SaaS, content creators, and marketplaces across US, EU, UK, Canada and Australia.">
-    <meta name="keywords" content="terms of service generator, ToS generator, privacy policy generator, legal documents, business compliance, e-commerce terms, SaaS terms, GDPR compliant, free legal templates">
+    <meta name="description" content="Free Terms of Service Generator for businesses. Create legally-sound ToS documents customized to your business type and jurisdiction. Supports e-commerce, SaaS, content creators, marketplaces, Discord bots across US, EU, UK, Canada and Australia.">
+    <meta name="keywords" content="terms of service generator, ToS generator, Discord bot terms, privacy policy generator, legal documents, business compliance, e-commerce terms, SaaS terms, GDPR compliant, free legal templates">
     <meta name="author" content="Tempest Solutions">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
@@ -22,7 +22,7 @@
             <div class="features">
                 <div class="feature">
                     <h3>Comprehensive Business-Specific Templates</h3>
-                    <p>Specialized templates for <strong>16+ business types</strong> including <strong>e-commerce</strong>, <strong>SaaS</strong>, <strong>content creators</strong>, <strong>membership sites</strong>, <strong>educational platforms</strong>, <strong>mobile apps</strong>, <strong>consulting services</strong>, <strong>non-profits</strong>, <strong>healthcare</strong>, <strong>fintech</strong>, <strong>affiliate marketing</strong>, <strong>dropshipping</strong>, <strong>community forums</strong>, <strong>blogs</strong>, and <strong>food service</strong> - each with industry-specific clauses and legal protections.</p>
+                    <p>Specialized templates for <strong>16+ business types</strong> including <strong>e-commerce</strong>, <strong>SaaS</strong>, <strong>content creators</strong>, <strong>membership sites</strong>, <strong>educational platforms</strong>, <strong>mobile apps</strong>, <strong>consulting services</strong>, <strong>non-profits</strong>, <strong>healthcare</strong>, <strong>fintech</strong>, <strong>affiliate marketing</strong>, <strong>dropshipping</strong>, <strong>community forums</strong>, <strong>blogs</strong>, <strong>food service</strong>, and <strong>Discord bots</strong> - each with industry-specific clauses and legal protections.</p>
                 </div>
                 
                 <div class="feature">
@@ -72,6 +72,7 @@
                     <option value="community">Community Forums</option>
                     <option value="blog">Blog</option>
                     <option value="foodservice">Food Service</option>
+                    <option value="bot">Discord Bot</option>
                 </select>
             </div>
 
@@ -146,6 +147,8 @@
             </div>
         </form>
         
+
+        
         <div id="result" class="hidden">
             <h2>Your Terms of Service</h2>
             <div id="preview"></div>
@@ -157,32 +160,63 @@
         </div>
     </main>
 
-    <section class="features-section">
-        <h2>Why Choose Our Terms of Service Generator?</h2>
-        <div class="features-grid">
-            <div class="feature-card">
-                <h3>Legally Compliant</h3>
-                <p>Our templates are designed with input from legal professionals to help ensure compliance with relevant laws and regulations.</p>
+    <div class="spacer my-5 py-5"></div>
+
+    <section id="benefits" class="benefits-section">
+        <div class="benefits-container">
+            <div class="benefits-header">
+                <h2>Why Choose Our Terms of Service Generator?</h2>
+                <p class="lead">Create professional, customized legal documents in minutes without the high legal fees</p>
             </div>
-            <div class="feature-card">
-                <h3>Easy Customization</h3>
-                <p>Simple interface allows you to generate comprehensive terms of service in minutes without legal expertise.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Global Coverage</h3>
-                <p>Support for multiple jurisdictions with built-in compliance modules for GDPR, CCPA, LGPD, PIPEDA, and more.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Industry-Specific</h3>
-                <p>Templates tailored to your business type with relevant clauses automatically included based on your needs.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Regular Updates</h3>
-                <p>Our templates are regularly updated to reflect changes in laws and regulations.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Developer-Friendly</h3>
-                <p>Available as a web tool, command-line interface, or JavaScript library for integration into your own projects.</p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Legally Sound</h3>
+                    <p>Our templates are crafted with legal best practices and regularly updated to reflect current laws and regulations.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Customizable</h3>
+                    <p>Tailor your terms to your specific business type, jurisdiction, and needs with our specialized clauses and compliance modules.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Quick & Easy</h3>
+                    <p>Generate comprehensive terms of service in minutes without any legal expertise required.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>International Support</h3>
+                    <p>Coverage for multiple jurisdictions including the US, EU, UK, Canada, and Australia.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Compliance Focus</h3>
+                    <p>Built-in modules for GDPR, CCPA, and other regulatory frameworks to help keep you compliant.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Completely Free</h3>
+                    <p>All features are available at no cost, with no hidden fees or premium restrictions.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -198,5 +232,32 @@
     </script>
     <script src="js/generator.js"></script>
     <script src="js/app.js"></script>
+    
+    <script>
+        // Add custom behavior for Discord bot selection
+        document.addEventListener('DOMContentLoaded', function() {
+            const businessTypeSelect = document.getElementById('business-type');
+            
+            if (businessTypeSelect) {
+                businessTypeSelect.addEventListener('change', function() {
+                    if (this.value === 'bot') {
+                        // Check for Discord-specific clauses once they're loaded
+                        setTimeout(() => {
+                            // Auto-select bot-specific clauses
+                            const botCommandsCheckbox = document.querySelector('input[value="bot_commands"]');
+                            const discordComplianceCheckbox = document.querySelector('input[value="discord_compliance"]');
+                            
+                            if (botCommandsCheckbox) botCommandsCheckbox.checked = true;
+                            if (discordComplianceCheckbox) discordComplianceCheckbox.checked = true;
+                            
+                            // You might also want to check other relevant clauses such as
+                            const dataProcessingCheckbox = document.querySelector('input[value="data_processing"]');
+                            if (dataProcessingCheckbox) dataProcessingCheckbox.checked = true;
+                        }, 300); // Short delay to ensure the checkboxes are rendered
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 </html>
