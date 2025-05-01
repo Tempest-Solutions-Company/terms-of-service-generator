@@ -1,0 +1,144 @@
+{
+  "gdpr": {
+    "name": "General Data Protection Regulation (GDPR)",
+    "region": "European Union",
+    "description": "Regulation on data protection and privacy in the EU and EEA",
+    "required_sections": [
+      "data_collection",
+      "data_processing",
+      "data_subject_rights",
+      "data_transfers"
+    ],
+    "clauses": {
+      "data_collection": "## Data Collection Under GDPR\nIn compliance with the General Data Protection Regulation (GDPR), we collect and process your personal data only when we have a lawful basis to do so. This includes processing based on your consent, to fulfill a contract with you, to comply with a legal obligation, to protect your vital interests, to perform a task in the public interest, or for our legitimate interests where those don't override your fundamental rights and freedoms.\n\nWe collect only the minimum data necessary for the purposes specified in this policy. When we request your consent to process your data, you have the right to withdraw that consent at any time.",
+      
+      "data_subject_rights": "## Your Rights Under GDPR\nIf you are located in the European Economic Area (EEA), you have the following rights with respect to your personal data:\n\n- **Right to access**: You can request a copy of the personal data we hold about you.\n- **Right to rectification**: You can request that we correct inaccurate or incomplete data about you.\n- **Right to erasure**: You can request that we delete your personal data in certain circumstances.\n- **Right to restrict processing**: You can request that we restrict the processing of your data in certain circumstances.\n- **Right to data portability**: You can request to receive your data in a structured, commonly used, and machine-readable format.\n- **Right to object**: You can object to our processing of your personal data in certain circumstances.\n- **Rights related to automated decision-making**: You can request human intervention in automated decisions that significantly affect you.\n\nTo exercise these rights, please contact us at [CONTACT_INFORMATION]. We will respond to your request within 30 days.",
+      
+      "data_processing": "## Data Processing Under GDPR\nWe process personal data in accordance with the principles outlined in the GDPR:\n\n- **Lawfulness, fairness, and transparency**: We process data lawfully, fairly, and in a transparent manner.\n- **Purpose limitation**: We collect data for specified, explicit, and legitimate purposes and do not process it in a manner incompatible with those purposes.\n- **Data minimization**: We limit data collection to what is necessary for the purposes for which it is processed.\n- **Accuracy**: We take reasonable steps to ensure personal data is accurate and kept up to date.\n- **Storage limitation**: We keep data in a form that permits identification only as long as necessary for the purposes of processing.\n- **Integrity and confidentiality**: We process data in a manner that ensures appropriate security, including protection against unauthorized or unlawful processing and against accidental loss, destruction, or damage.\n\nWe maintain records of our data processing activities and conduct data protection impact assessments where required by law.",
+      
+      "data_transfers": "## International Data Transfers\nIf we transfer your personal data outside the European Economic Area (EEA), we will ensure that appropriate safeguards are in place to protect your data, such as:\n\n- Transferring to countries deemed by the European Commission to provide adequate protection\n- Using Standard Contractual Clauses approved by the European Commission\n- Adopting Binding Corporate Rules for transfers within our corporate group\n- Where applicable, relying on derogations for specific situations such as your explicit consent or the necessity to perform a contract with you\n\nYou have the right to obtain information about the safeguards we use to transfer your personal data outside the EEA by contacting us at [CONTACT_INFORMATION]."
+    }
+  },
+  "ccpa": {
+    "name": "California Consumer Privacy Act (CCPA)",
+    "region": "California, United States",
+    "description": "Law that enhances privacy rights and consumer protection for residents of California",
+    "required_sections": [
+      "information_collection",
+      "california_rights",
+      "do_not_sell",
+      "financial_incentives"
+    ],
+    "clauses": {
+      "information_collection": "## Information Collection Notice for California Residents\nUnder the California Consumer Privacy Act (CCPA), we are required to inform California residents about the categories of personal information we collect and the purposes for which we use this information.\n\nIn the past 12 months, we have collected the following categories of personal information:\n- Identifiers (such as name, email address, IP address)\n- Commercial information (such as products purchased or considered)\n- Internet or other electronic network activity (such as browsing history)\n- Geolocation data\n- Inferences drawn from other personal information\n\nWe use this information for the business and commercial purposes described in our Privacy Policy.",
+      
+      "california_rights": "## California Privacy Rights\nIf you are a California resident, you have the following rights under the CCPA:\n\n- **Right to know**: You can request information about the personal information we have collected about you and how we have used and disclosed it.\n- **Right to delete**: You can request the deletion of your personal information, subject to certain exceptions.\n- **Right to opt-out**: You can opt out of the sale of your personal information, if applicable.\n- **Right to non-discrimination**: We will not discriminate against you for exercising any of your CCPA rights.\n\nTo exercise your rights, you can submit a verifiable consumer request by contacting us at [CONTACT_INFORMATION] or through the methods described in our Privacy Policy. You may make a request up to twice within a 12-month period. We will respond to your request within 45 days, with a possible extension of up to 45 additional days when reasonably necessary.",
+      
+      "do_not_sell": "## California Do Not Sell My Personal Information\nUnder the CCPA, California residents have the right to opt-out of the sale of their personal information. {{BUSINESS_NAME}} [DOES/DOES NOT] sell personal information as defined by the CCPA.\n\n[IF APPLICABLE: To opt out of the sale of your personal information, please visit our \"Do Not Sell My Personal Information\" page at [LINK] or contact us at [CONTACT_INFORMATION].]",
+      
+      "financial_incentives": "## Financial Incentives Notice\n[IF APPLICABLE: {{BUSINESS_NAME}} offers certain financial incentives in connection with the collection, retention, or sale of your personal information. These incentives include [DESCRIBE INCENTIVES]. The value of your data to us is related to the value you receive from our products and services, which depends on several factors including but not limited to [RELEVANT FACTORS].\n\nYou can opt in to financial incentives by [DESCRIBE OPT-IN PROCESS] and you have the right to withdraw at any time by [DESCRIBE OPT-OUT PROCESS].]"
+    }
+  },
+  "lgpd": {
+    "name": "Lei Geral de Proteção de Dados (LGPD)",
+    "region": "Brazil",
+    "description": "Brazilian General Data Protection Law",
+    "required_sections": [
+      "legal_basis",
+      "data_subject_rights_brazil",
+      "data_protection_officer"
+    ],
+    "clauses": {
+      "legal_basis": "## Legal Basis for Processing Under LGPD\nIn accordance with the Brazilian General Data Protection Law (LGPD), we only process your personal data when we have a legal basis to do so. These legal bases include:\n\n- With your consent\n- To fulfill a contract with you or to take steps at your request before entering into a contract\n- To comply with a legal or regulatory obligation\n- For the regular exercise of rights in judicial, administrative, or arbitration proceedings\n- For our legitimate interests, provided these interests do not override your fundamental rights and freedoms\n- To protect credit (in accordance with applicable legislation)\n- For the protection of your life or physical safety, or the life or physical safety of a third party\n- For health procedures, when processing is performed by health professionals or health entities\n- To perform public policy studies and research\n- For the regular exercise of rights in contracts or judicial, administrative, or arbitration proceedings",
+      
+      "data_subject_rights_brazil": "## Your Rights Under LGPD\nIf you are located in Brazil, the LGPD provides you with specific rights regarding your personal data. You have the right to:\n\n- Confirmation of the existence of processing of your personal data\n- Access to your personal data\n- Correction of incomplete, inaccurate, or outdated data\n- Anonymization, blocking, or deletion of unnecessary or excessive data\n- Portability of your data to another service provider\n- Deletion of personal data processed with your consent\n- Information about public and private entities with which we have shared your data\n- Information about the possibility of not providing consent and the consequences\n- Revocation of consent\n\nTo exercise any of these rights, please contact our Data Protection Officer at the contact information provided below. We will respond to your request within 15 days.",
+      
+      "data_protection_officer": "## Data Protection Officer (DPO)\nIn compliance with the LGPD, we have appointed a Data Protection Officer (DPO) who can be contacted regarding any questions or concerns about our personal data processing practices:\n\nDPO Name: [DPO_NAME]\nEmail: [DPO_EMAIL]\nAddress: [DPO_ADDRESS]\n\nOur DPO is responsible for ensuring our compliance with the LGPD and will respond to your inquiries regarding your personal data."
+    }
+  },
+  "pipeda": {
+    "name": "Personal Information Protection and Electronic Documents Act (PIPEDA)",
+    "region": "Canada",
+    "description": "Canadian federal privacy law for private-sector organizations",
+    "required_sections": [
+      "consent_principles",
+      "canadian_privacy_rights",
+      "transborder_data_flows"
+    ],
+    "clauses": {
+      "consent_principles": "## Consent Under PIPEDA\nIn accordance with the Personal Information Protection and Electronic Documents Act (PIPEDA), we obtain your consent when we collect, use, or disclose your personal information. The form of consent may vary depending on the circumstances and the type of information collected. Express consent is generally obtained when the information is likely to be considered sensitive, while implied consent may be appropriate when the information is less sensitive.\n\nYou may withdraw your consent at any time, subject to legal or contractual restrictions and reasonable notice. However, please note that withdrawing your consent may affect our ability to provide you with certain products or services.",
+      
+      "canadian_privacy_rights": "## Canadian Privacy Rights\nUnder PIPEDA, you have the right to:\n\n- Access your personal information held by us\n- Challenge the accuracy and completeness of your personal information\n- Have your personal information amended where inaccurate or incomplete\n- Withdraw your consent to the continued use and disclosure of your personal information\n\nTo exercise these rights, please contact our Privacy Officer at [CONTACT_INFORMATION]. We will respond to your request within 30 days, unless an extension is warranted.",
+      
+      "transborder_data_flows": "## Cross-Border Data Transfers\nYour personal information may be stored and processed in Canada or other countries where we or our service providers maintain facilities. By using our services, you consent to the transfer of information to countries outside your country of residence, which may have different data protection rules than in your country.\n\nWhen we transfer your personal information to other countries, we will protect that information as described in this Privacy Policy and in accordance with applicable law. We take steps to ensure that third parties involved in processing your data maintain appropriate data protection safeguards."
+    }
+  },
+  "popi": {
+    "name": "Protection of Personal Information Act (POPIA)",
+    "region": "South Africa",
+    "description": "South African law that establishes minimum requirements for processing personal information",
+    "required_sections": [
+      "popia_principles",
+      "south_africa_rights",
+      "information_officer"
+    ],
+    "clauses": {
+      "popia_principles": "## Processing Principles Under POPIA\nIn compliance with the Protection of Personal Information Act (POPIA), we process your personal information in accordance with the following principles:\n\n- **Accountability**: We are responsible for ensuring compliance with POPIA principles\n- **Processing limitation**: We process your information lawfully and minimally\n- **Purpose specification**: We collect information for specific, explicitly defined purposes\n- **Further processing limitation**: We only use your information for purposes compatible with those for which it was collected\n- **Information quality**: We take reasonable steps to ensure your information is complete, accurate, and not misleading\n- **Openness**: We maintain documentation about our processing activities and notify you when collecting your information\n- **Security safeguards**: We secure the integrity and confidentiality of your information\n- **Data subject participation**: We facilitate your right to access and correct your information\n\nWe only process your personal information if we have a lawful basis, including your consent, contractual necessity, legal obligation, or our legitimate interests.",
+      
+      "south_africa_rights": "## Your Rights Under POPIA\nAs a data subject under POPIA, you have the right to:\n\n- Request confirmation of whether we hold your personal information\n- Request access to your personal information\n- Request correction or deletion of inaccurate, irrelevant, excessive, outdated, incomplete, misleading, or unlawfully obtained personal information\n- Object to the processing of your personal information in certain circumstances\n- Object to the processing of your personal information for direct marketing purposes\n- Not be subject to a decision based solely on automated processing\n- Submit a complaint to the Information Regulator\n- Institute civil proceedings regarding alleged interference with your personal information\n\nTo exercise these rights, please contact our Information Officer using the details provided below.",
+      
+      "information_officer": "## Information Officer\nIn accordance with POPIA, we have appointed an Information Officer who is responsible for ensuring our compliance with the Act:\n\nInformation Officer Name: [IO_NAME]\nEmail: [IO_EMAIL]\nPhone: [IO_PHONE]\n\nYou may contact our Information Officer with any inquiries related to the processing of your personal information or to exercise your rights under POPIA."
+    }
+  },
+  "apps": {
+    "name": "Australian Privacy Principles (APPs)",
+    "region": "Australia",
+    "description": "Privacy principles in Australia's Privacy Act 1988",
+    "required_sections": [
+      "app_principles",
+      "australian_rights",
+      "overseas_recipients"
+    ],
+    "clauses": {
+      "app_principles": "## Australian Privacy Principles Compliance\nWe comply with the Australian Privacy Principles (APPs) contained in the Privacy Act 1988 (Cth). The APPs govern how we collect, use, disclose, store, and provide access to your personal information. We are committed to:\n\n- Being open and transparent about how we manage your personal information\n- Only collecting personal information that is reasonably necessary for our functions or activities\n- Notifying you about the collection of your personal information\n- Only using or disclosing your personal information for the purpose for which it was collected, or for a related purpose you would reasonably expect\n- Taking reasonable steps to protect your personal information from misuse, interference, loss, and unauthorized access, modification, or disclosure\n- Providing you with access to your personal information upon request\n- Correcting inaccurate, out-of-date, incomplete, irrelevant, or misleading personal information\n\nFor more detailed information about how we handle your personal information, please refer to our Privacy Policy.",
+      
+      "australian_rights": "## Your Privacy Rights in Australia\nUnder the Privacy Act and the APPs, you have the right to:\n\n- Request access to the personal information we hold about you\n- Request correction of any personal information that is inaccurate, out-of-date, incomplete, irrelevant, or misleading\n- Make a complaint about a breach of the APPs\n- Opt out of receiving direct marketing communications from us\n- Request information about our privacy practices and handling of your personal information\n\nTo exercise these rights, please contact our Privacy Officer at [CONTACT_INFORMATION]. We will respond to your request within a reasonable timeframe (usually within 30 days).",
+      
+      "overseas_recipients": "## Disclosure to Overseas Recipients\nWe may disclose your personal information to overseas recipients, such as service providers or affiliated entities located outside Australia. When we do so, we take reasonable steps to ensure that the overseas recipient does not breach the APPs in relation to your personal information.\n\nThe countries where overseas recipients may be located include [LIST_COUNTRIES]. By providing your personal information, you consent to this disclosure.\n\nIf a third-party overseas recipient handles your personal information in a way that breaches the APPs, we may be accountable under the Privacy Act, and you may not be able to seek redress under the Privacy Act against the overseas recipient."
+    }
+  },
+  "coppa": {
+    "name": "Children's Online Privacy Protection Act (COPPA)",
+    "region": "United States",
+    "description": "United States federal law protecting online privacy of children under 13",
+    "required_sections": [
+      "children_privacy",
+      "parental_consent",
+      "children_rights"
+    ],
+    "clauses": {
+      "children_privacy": "## Children's Privacy\nWe comply with the requirements of the Children's Online Privacy Protection Act (COPPA) and other applicable laws. Our Services are not directed to children under the age of 13, and we do not knowingly collect personal information from children under 13 years of age.\n\nIf our Services are intended for use by children under 13, or if we have actual knowledge that we collect personal information from children under 13, we will obtain verifiable parental consent before collecting such information. We implement appropriate measures to ensure that we collect, use, and disclose such information in accordance with COPPA and other applicable laws.",
+      
+      "parental_consent": "## Parental Consent\nIf we knowingly collect personal information from children under 13, we will obtain verifiable parental consent before collecting, using, or disclosing such information. We may obtain parental consent through any of the methods approved by the Federal Trade Commission, which may include:\n\n- A signed consent form returned to us by mail, fax, or electronic scan\n- Requiring a parent to use a credit card, debit card, or other online payment system in connection with a transaction\n- Having a parent call a toll-free telephone number or connect to trained personnel via video conference\n- Verifying a parent's identity by checking a government-issued ID against databases of such information\n\nIf you are a parent or guardian and believe your child has provided us with personal information without your consent, please contact us at [CONTACT_INFORMATION]. If we confirm that we have collected such information without verifiable parental consent, we will promptly delete the information from our records.",
+      
+      "children_rights": "## Parents' Rights\nIf you are a parent or guardian of a child under 13 whose information has been submitted to us with your consent, you have the right to:\n\n- Review the personal information we have collected from your child\n- Refuse to allow further collection or use of your child's information\n- Direct us to delete your child's personal information\n\nTo exercise these rights, please contact us at [CONTACT_INFORMATION]. We will respond to your request within a reasonable time and may require additional information to verify your identity as the child's parent or guardian."
+    }
+  },
+  "casl": {
+    "name": "Canada's Anti-Spam Legislation (CASL)",
+    "region": "Canada",
+    "description": "Canadian law regulating commercial electronic messages (CEMs)",
+    "required_sections": [
+      "consent_requirements",
+      "unsubscribe_mechanism",
+      "casl_compliance"
+    ],
+    "clauses": {
+      "consent_requirements": "## Consent for Electronic Communications\nIn compliance with Canada's Anti-Spam Legislation (CASL), we obtain appropriate consent before sending commercial electronic messages (CEMs) to electronic addresses. We may rely on either express or implied consent:\n\n- **Express consent** means you have actively agreed to receive our communications, which remains valid until you withdraw it.\n- **Implied consent** may arise from an existing business relationship, existing non-business relationship, conspicuous publication of your address, or voluntary disclosure of your address to us without indicating you do not wish to receive CEMs.\n\nWhen requesting your express consent, we clearly identify the purpose for which consent is sought, provide our contact information, and inform you that you can withdraw your consent at any time.",
+      
+      "unsubscribe_mechanism": "## Unsubscribe Mechanism\nEvery commercial electronic message we send includes a clear and prominent unsubscribe mechanism that allows you to withdraw your consent to receive future messages. The unsubscribe mechanism:\n\n- Is easy to use and at no cost to you\n- Can be executed through the same electronic means by which the message was sent, or if that is not practicable, through another electronic means\n- Specifies an electronic address or link to a webpage to which the unsubscribe request may be sent\n\nWhen you unsubscribe, we will honor your request within 10 business days. We will not charge a fee, require you to provide personal information beyond your electronic address, or make you take any steps other than sending a reply email or visiting a single webpage to unsubscribe.",
+      
+      "casl_compliance": "## CASL Compliance Statement\nWe are committed to compliance with Canada's Anti-Spam Legislation (CASL). This means we:\n\n- Obtain appropriate consent before sending commercial electronic messages\n- Clearly identify ourselves in all communications\n- Provide our contact information in all communications\n- Honor all unsubscribe requests promptly\n- Do not alter transmission data without consent\n- Do not install computer programs without consent\n\nIf you have questions about our CASL compliance practices or believe you have received a message from us that does not comply with CASL, please contact us at [CONTACT_INFORMATION]."
+    }
+  }
+}

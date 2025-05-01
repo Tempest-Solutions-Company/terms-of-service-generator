@@ -1,0 +1,31 @@
+{
+  "name": "terms-of-service-generator",
+  "version": "1.0.0",
+  "description": "Generate compliant terms of service based on business type and jurisdiction",
+  "main": "cli/index.js",
+  "bin": {
+    "tos-generator": "./cli/index.js"
+  },
+  "scripts": {
+    "start": "node cli/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "terms",
+    "service",
+    "generator",
+    "legal",
+    "compliance"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/terms-of-service-generator.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

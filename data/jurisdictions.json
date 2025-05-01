@@ -1,0 +1,33 @@
+{
+  "generic": {
+    "LIABILITY_CLAUSE": "To the maximum extent permitted by law, {{BUSINESS_NAME}} shall not be liable for any indirect, incidental, special, consequential, or punitive damages.",
+    "GOVERNING_LAW": "These Terms shall be governed by and construed in accordance with the laws of the jurisdiction where {{BUSINESS_NAME}} is headquartered.",
+    "DISPUTE_RESOLUTION": "Any disputes arising from these Terms will be resolved through arbitration in accordance with the rules of the jurisdiction where {{BUSINESS_NAME}} is headquartered.",
+    "RETURNS_POLICY": "Returns are accepted within 30 days of purchase, provided the product is in its original condition.",
+    "DATA_PRIVACY_CLAUSE": "We collect and process personal data as described in our Privacy Policy. By using our service, you consent to such processing."
+  },
+  
+  "us": {
+    "LIABILITY_CLAUSE": "TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL {{BUSINESS_NAME}} BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER. SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.",
+    "GOVERNING_LAW": "These Terms shall be governed by and construed in accordance with the laws of the State of [State], without regard to its conflict of law provisions. Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights.",
+    "DISPUTE_RESOLUTION": "Any disputes arising from these Terms will be resolved through binding arbitration in accordance with the American Arbitration Association rules. The arbitration shall take place in [City, State]. You agree to waive any right to a jury trial.",
+    "RETURNS_POLICY": "Returns are accepted within 30 days of purchase, provided the product is in its original condition with all packaging and accessories. Refunds will be issued to the original form of payment.",
+    "DATA_PRIVACY_CLAUSE": "Our Privacy Policy describes our practices regarding the information we collect from you. California residents have additional rights as set forth in our Privacy Policy."
+  },
+  
+  "eu": {
+    "LIABILITY_CLAUSE": "Nothing in these Terms shall limit our liability for fraud, death, personal injury caused by our negligence, or any other liability that cannot be excluded or limited under applicable law. Subject to this, our maximum aggregate liability for any single event (or a series of connected events) shall not exceed the amount paid by you to {{BUSINESS_NAME}} in the previous 12 months.",
+    "GOVERNING_LAW": "These Terms shall be governed by and construed in accordance with the laws of the European Union and the country where you reside. This does not affect your rights as a consumer according to the laws of your country of residence.",
+    "DISPUTE_RESOLUTION": "If a dispute arises, we will attempt to resolve it amicably. You have the right to bring proceedings in the courts of your country of residence or use the European Commission's Online Dispute Resolution platform.",
+    "RETURNS_POLICY": "In accordance with EU consumer protection law, you have the right to cancel your order within 14 days of receiving the goods without giving a reason. To exercise this right, you must inform us of your decision to cancel using a clear statement.",
+    "DATA_PRIVACY_CLAUSE": "We process personal data in accordance with the General Data Protection Regulation (GDPR). You have the right to access, rectify, erase, restrict processing, object to processing, and data portability. For details, see our Privacy Policy."
+  },
+  
+  "uk": {
+    "LIABILITY_CLAUSE": "Nothing in these Terms shall limit our liability for fraud, death, personal injury caused by our negligence, or any other liability that cannot be excluded or limited under UK law. Subject to this, our maximum aggregate liability for any single event (or a series of connected events) shall not exceed the amount paid by you to {{BUSINESS_NAME}} in the previous 12 months.",
+    "GOVERNING_LAW": "These Terms shall be governed by and construed in accordance with the laws of England and Wales. This does not affect your rights as a consumer according to the laws of your country of residence.",
+    "DISPUTE_RESOLUTION": "If a dispute arises, we will attempt to resolve it amicably. Any legal proceedings shall be brought in the courts of England and Wales, although consumers may bring proceedings in their country of residence.",
+    "RETURNS_POLICY": "In accordance with UK consumer protection law, you have the right to cancel your order within 14 days of receiving the goods without giving a reason. To exercise this right, you must inform us of your decision to cancel using a clear statement.",
+    "DATA_PRIVACY_CLAUSE": "We process personal data in accordance with the UK GDPR and Data Protection Act 2018. You have the right to access, rectify, erase, restrict processing, object to processing, and data portability. For details, see our Privacy Policy."
+  }
+}
