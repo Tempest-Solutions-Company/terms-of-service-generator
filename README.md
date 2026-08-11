@@ -1,50 +1,32 @@
-# Terms of Service Generator
+# Legal Document Generator
 
-A comprehensive tool for generating legally-sound Terms of Service documents customized to your business type and jurisdiction.
+A comprehensive, free tool for generating professionally-structured legal documents — tailored to your business type and jurisdiction. No account required, no fees, runs entirely in the browser.
 
-## Overview
+---
 
-The Terms of Service Generator helps businesses create professional terms of service documents tailored to their specific needs without expensive legal fees. The generator uses industry-specific templates and allows for customization based on your jurisdiction and specific business requirements.
+## Document Types
 
-## Regulatory Compliance
+### Terms of Service
+Generate business-specific Terms of Service with industry-relevant clauses, jurisdiction-aware provisions, and built-in compliance modules. Supports 17 business types across 8 jurisdictions.
 
-The generator includes specialized modules for major privacy regulations:
+### Non-Disclosure Agreement (NDA)
+Generate mutual or one-way NDAs with clearly defined confidentiality obligations, purpose scope, duration, exception clauses, and signature blocks.
 
-- **GDPR (EU)**: Comprehensive compliance with the General Data Protection Regulation including data subject rights, lawful basis for processing, and data protection requirements
-- **CCPA (California)**: California Consumer Privacy Act compliance including disclosure requirements about personal information collection and consumer rights
-- **LGPD (Brazil)**: Brazilian General Data Protection Law compliance covering data processing principles and data subject rights
-- **PIPEDA (Canada)**: Personal Information Protection and Electronic Documents Act compliance for Canadian businesses
-- **POPI (South Africa)**: Protection of Personal Information Act compliance for South African businesses
-- **APPs (Australia)**: Australian Privacy Principles compliance for handling personal information
-- **COPPA (US)**: Children's Online Privacy Protection Act compliance for services directed at children
-- **CASL (Canada)**: Canadian Anti-Spam Legislation compliance for electronic communications
+### Freelance Contract
+Generate project-based service agreements covering scope of work, payment schedule, IP ownership, revision rounds, confidentiality, and termination — tailored to the chosen jurisdiction.
+
+### Employment Contract
+Generate comprehensive employment agreements covering job title, employment type, compensation, working hours, annual leave, probationary periods, confidentiality, IP assignment, non-compete clauses, and termination notice.
+
+### Consulting Agreement
+Generate consulting agreements covering scope of services, deliverables, fee structure, payment terms, IP ownership, confidentiality, exclusivity, limitation of liability, and termination.
+
+---
 
 ## Key Features
 
-### Business-Specific Templates
-Specialized templates for various business types, each with industry-relevant clauses:
-
-- E-commerce
-- SaaS (Software as a Service)
-- Content Creators
-- Marketplaces
-- Membership Sites
-- Educational Platforms
-- Mobile Applications
-- Consulting Services
-- Nonprofit Organizations
-- Healthcare Services
-- Financial Technology
-- Affiliate Marketing
-- Dropshipping
-- Community Platforms
-- Blogs
-- Food Services
-- Generic business
-
 ### Jurisdiction Support
-Customized terms based on your primary jurisdiction:
-
+All document types can be tailored to:
 - United States
 - European Union
 - United Kingdom
@@ -52,82 +34,114 @@ Customized terms based on your primary jurisdiction:
 - Australia
 - Brazil
 - South Africa
-- Generic international
+- Generic International
 
-### Customizable Clause Library
-Specialized clauses you can add based on your specific business needs:
+### Terms of Service — Business Templates
+Specialised templates for 17+ business types including:
+- E-commerce, SaaS, Content Creators, Marketplaces, Membership Sites
+- Educational Platforms, Mobile Applications, Consulting Services
+- Non-Profits, Healthcare, FinTech, Affiliate Marketing, Dropshipping
+- Community Forums, Blogs, Food Service, Discord Bots
 
-- **Age Verification**: For businesses with age-restricted content or products
-- **International Shipping**: Detailed terms for global e-commerce businesses
-- **Virtual Events**: Terms for webinars, online conferences, and digital events
-- **API Usage**: Terms for API access, usage limits, and third-party integration
-- **User-Generated Content**: Moderation policies for platforms with user content
-- **Data Processing Agreement**: GDPR-compliant data processing terms
-- **Subscription Management**: Terms for recurring billing and membership services
-- **Accessibility Compliance**: Statements regarding accessibility standards
-- **Dispute Resolution**: Arbitration and conflict resolution procedures
-- **Intellectual Property**: Detailed IP rights protection clauses
+### Regulatory Compliance Modules (Terms of Service)
+- **GDPR** — General Data Protection Regulation (EU)
+- **CCPA** — California Consumer Privacy Act (US)
+- **LGPD** — Lei Geral de Proteção de Dados (Brazil)
+- **PIPEDA** — Personal Information Protection and Electronic Documents Act (Canada)
+- **POPIA** — Protection of Personal Information Act (South Africa)
+- **APPs** — Australian Privacy Principles
+- **COPPA** — Children's Online Privacy Protection Act (US)
+- **CASL** — Canada's Anti-Spam Legislation
+
+### Specialised Clause Library (Terms of Service)
+Optional clauses for: Age Verification, International Shipping, Virtual Events, API Usage, User-Generated Content, Data Processing Agreement, Subscription Management, Accessibility Compliance, Dispute Resolution, Intellectual Property, and more.
+
+---
 
 ## Multiple Ways to Use
 
-### Web Interface (Online)
-Visit https://tempest-solutions-company.github.io/terms-of-service-generator to use the tool directly in your browser.
+### Web Interface
+Open `index.html` in any modern browser — no server or build step required. Or visit the hosted version at https://tempest-solutions-company.github.io/terms-of-service-generator.
 
-### Command-Line Interface (CLI)
+### Command-Line Interface
 
 ```bash
-# Install globally
 npm install -g terms-of-service-generator
-
-# Run the generator
 tos-generator
 ```
 
 ### JavaScript Library
 
 ```javascript
-// Import the library
 const tosGenerator = require('terms-of-service-generator');
 
-// Generate terms of service
 const document = tosGenerator.generate({
-  businessType: 'ecommerce',
-  businessName: 'Example Store',
-  jurisdiction: 'us',
-  complianceModules: ['ccpa', 'gdpr'], // Include multiple compliance modules
-  specialClauses: ['international_shipping', 'age_verification'] // Add specialized clauses
+  businessType:      'saas',
+  businessName:      'Acme Inc.',
+  jurisdiction:      'us',
+  complianceModules: ['ccpa', 'gdpr'],
+  specialClauses:    ['api_usage', 'subscription_management']
 });
-
-// Use the generated document
-console.log(document);
 ```
 
-## Installation for Development
+---
+
+## Project Structure
+
+```
+├── index.html                  # Main UI
+├── css/
+│   └── style.css               # All styles including new tab UI
+├── js/
+│   ├── generator.js            # TOSGenerator class (Terms of Service)
+│   ├── doc-generator.js        # DocumentGenerator class (NDA, Freelance, Employment, Consulting)
+│   └── app.js                  # UI logic, tab switching, form handling
+├── data/
+│   ├── templates.json          # Business-type TOS templates
+│   ├── jurisdictions.json      # Jurisdiction-specific clauses
+│   ├── compliance_modules.json # Regulatory compliance modules
+│   ├── clause_library.json     # Specialised TOS clauses
+│   └── documents.json          # Templates + field definitions for new doc types
+└── cli/
+    └── index.js                # CLI entry point
+```
+
+---
+
+## Local Development
 
 ```bash
-# Clone the repository
 git clone https://github.com/tempest-solutions-company/terms-of-service-generator.git
 cd terms-of-service-generator
-
-# Install dependencies
 npm install
 
-# Run locally
-npm start
+# Open index.html directly in a browser, or serve with any static server:
+npx serve .
 ```
 
-## Customizing Templates
+---
 
-You can customize the templates by modifying the JSON files in the `data` directory:
+## Customising Templates
 
-- `templates.json` - Business type templates
-- `jurisdictions.json` - Jurisdiction-specific clauses
-- `compliance_modules.json` - Region-specific regulatory requirements
-- `clause_library.json` - Specialized clauses for specific business needs
+All document templates live in the `data/` directory:
+
+| File | Purpose |
+|------|---------|
+| `templates.json` | TOS templates by business type |
+| `jurisdictions.json` | Jurisdiction-specific clause text |
+| `compliance_modules.json` | Regulatory compliance sections |
+| `clause_library.json` | Optional specialised TOS clauses |
+| `documents.json` | NDA, Freelance, Employment & Consulting templates and field definitions |
+
+---
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Ideas include:
+- Additional document types (e.g., Privacy Policy, SLA, Partnership Agreement)
+- More jurisdictions
+- Improved clause language
+- UI/UX improvements
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -135,9 +149,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+---
+
 ## Disclaimer
 
-This tool is for informational purposes only and not a substitute for legal advice. The generated terms of service should be reviewed by a qualified legal professional before implementation. We make no warranties about the completeness, reliability, or accuracy of the generated documents.
+This tool is for informational purposes only and is not a substitute for legal advice. Generated documents should be reviewed by a qualified legal professional before use. We make no warranties about the completeness, reliability, or accuracy of the generated documents.
 
 ## License
 

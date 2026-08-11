@@ -125,7 +125,7 @@
     }
   },
   "casl": {
-    "name": "Canada's Anti-Spam Legislation (CASL)",
+    "name": "Canada's Anti Spam Legislation (CASL)",
     "region": "Canada",
     "description": "Canadian law regulating commercial electronic messages (CEMs)",
     "required_sections": [
@@ -134,11 +134,11 @@
       "casl_compliance"
     ],
     "clauses": {
-      "consent_requirements": "## Consent for Electronic Communications\nIn compliance with Canada's Anti-Spam Legislation (CASL), we obtain appropriate consent before sending commercial electronic messages (CEMs) to electronic addresses. We may rely on either express or implied consent:\n\n- **Express consent** means you have actively agreed to receive our communications, which remains valid until you withdraw it.\n- **Implied consent** may arise from an existing business relationship, existing non-business relationship, conspicuous publication of your address, or voluntary disclosure of your address to us without indicating you do not wish to receive CEMs.\n\nWhen requesting your express consent, we clearly identify the purpose for which consent is sought, provide our contact information, and inform you that you can withdraw your consent at any time.",
+      "consent_requirements": "## Consent for Electronic Communications\nIn compliance with Canada's Anti Spam Legislation (CASL), we obtain appropriate consent before sending commercial electronic messages (CEMs) to electronic addresses. We may rely on either express or implied consent:\n\n- **Express consent** means you have actively agreed to receive our communications, which remains valid until you withdraw it.\n- **Implied consent** may arise from an existing business relationship, existing non-business relationship, conspicuous publication of your address, or voluntary disclosure of your address to us without indicating you do not wish to receive CEMs.\n\nWhen requesting your express consent, we clearly identify the purpose for which consent is sought, provide our contact information, and inform you that you can withdraw your consent at any time.",
       
       "unsubscribe_mechanism": "## Unsubscribe Mechanism\nEvery commercial electronic message we send includes a clear and prominent unsubscribe mechanism that allows you to withdraw your consent to receive future messages. The unsubscribe mechanism:\n\n- Is easy to use and at no cost to you\n- Can be executed through the same electronic means by which the message was sent, or if that is not practicable, through another electronic means\n- Specifies an electronic address or link to a webpage to which the unsubscribe request may be sent\n\nWhen you unsubscribe, we will honor your request within 10 business days. We will not charge a fee, require you to provide personal information beyond your electronic address, or make you take any steps other than sending a reply email or visiting a single webpage to unsubscribe.",
       
-      "casl_compliance": "## CASL Compliance Statement\nWe are committed to compliance with Canada's Anti-Spam Legislation (CASL). This means we:\n\n- Obtain appropriate consent before sending commercial electronic messages\n- Clearly identify ourselves in all communications\n- Provide our contact information in all communications\n- Honor all unsubscribe requests promptly\n- Do not alter transmission data without consent\n- Do not install computer programs without consent\n\nIf you have questions about our CASL compliance practices or believe you have received a message from us that does not comply with CASL, please contact us at [CONTACT_INFORMATION]."
+      "casl_compliance": "## CASL Compliance Statement\nWe are committed to compliance with Canada's Anti Spam Legislation (CASL). This means we:\n\n- Obtain appropriate consent before sending commercial electronic messages\n- Clearly identify ourselves in all communications\n- Provide our contact information in all communications\n- Honor all unsubscribe requests promptly\n- Do not alter transmission data without consent\n- Do not install computer programs without consent\n\nIf you have questions about our CASL compliance practices or believe you have received a message from us that does not comply with CASL, please contact us at [CONTACT_INFORMATION]."
     }
   }
 }

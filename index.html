@@ -3,261 +3,471 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Free Terms of Service Generator for businesses. Create legally-sound ToS documents customized to your business type and jurisdiction. Supports e-commerce, SaaS, content creators, marketplaces, Discord bots across US, EU, UK, Canada and Australia.">
-    <meta name="keywords" content="terms of service generator, ToS generator, Discord bot terms, privacy policy generator, legal documents, business compliance, e-commerce terms, SaaS terms, GDPR compliant, free legal templates">
+    <meta name="description" content="Free Legal Document Generator, create Terms of Service, NDAs, Freelance Contracts, Employment Contracts, and Consulting Agreements. Customised by jurisdiction, fully downloadable.">
+    <meta name="keywords" content="legal document generator, terms of service generator, NDA generator, freelance contract, employment contract, consulting agreement, free legal templates, GDPR compliant">
     <meta name="author" content="Tempest Solutions">
     <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
-    <title>Terms of Service Generator | Create Custom Legal Documents</title>
+    <title>Legal Document Generator | ToS, NDA, Contracts &amp; Agreements</title>
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+
+    <!-- ═══════════════════════════ HERO ════════════════════════════════ -->
     <section class="seo-description">
         <div class="container">
-            <h2>Professional Terms of Service Generator - Free Legal Document Creator</h2>
-            <p>Welcome to our <strong>free Terms of Service Generator</strong> - the easiest way to create legally-sound Terms of Service documents tailored to your specific business needs and jurisdiction. Stop paying hundreds for legal templates or risking your business with generic terms.</p>
-            
+            <h2>Free Legal Document Generator, Professional Templates for Every Need</h2>
+            <p>Create legally sound business documents in minutes, completely free. From <strong>Terms of Service</strong> and <strong>NDAs</strong> to <strong>Freelance Contracts</strong>, <strong>Employment Agreements</strong>, and <strong>Consulting Agreements</strong> tailored to your jurisdiction and downloadable as HTML or Markdown.</p>
+
             <div class="features">
                 <div class="feature">
-                    <h3>Comprehensive Business-Specific Templates</h3>
-                    <p>Specialized templates for <strong>16+ business types</strong> including <strong>e-commerce</strong>, <strong>SaaS</strong>, <strong>content creators</strong>, <strong>membership sites</strong>, <strong>educational platforms</strong>, <strong>mobile apps</strong>, <strong>consulting services</strong>, <strong>non-profits</strong>, <strong>healthcare</strong>, <strong>fintech</strong>, <strong>affiliate marketing</strong>, <strong>dropshipping</strong>, <strong>community forums</strong>, <strong>blogs</strong>, <strong>food service</strong>, and <strong>Discord bots</strong> - each with industry-specific clauses and legal protections.</p>
+                    <h3>5 Document Types</h3>
+                    <p>Terms of Service, Non-Disclosure Agreements, Freelance Contracts, Employment Contracts, and Consulting Agreements, all in one place.</p>
                 </div>
-                
                 <div class="feature">
-                    <h3>Global Compliance</h3>
-                    <p>Legal compliance for multiple regions including <strong>United States</strong>, <strong>European Union (GDPR)</strong>, <strong>United Kingdom</strong>, <strong>Canada (PIPEDA)</strong>, <strong>Australia (APPs)</strong>, <strong>Brazil (LGPD)</strong>, and <strong>South Africa (POPI)</strong>. Automatically include required clauses for your target markets.</p>
+                    <h3>Global Jurisdiction Support</h3>
+                    <p>Documents tailored for the <strong>US, EU, UK, Canada, Australia, Brazil, South Africa</strong>, and international use with compliance modules for GDPR, CCPA, LGPD, and more.</p>
                 </div>
-                
                 <div class="feature">
-                    <h3>Specialized Clauses Library</h3>
-                    <p>Enhance your terms with specialized clauses for <strong>age verification</strong>, <strong>international shipping</strong>, <strong>virtual events</strong>, <strong>API usage</strong>, <strong>user-generated content</strong>, <strong>data processing</strong>, <strong>subscription management</strong>, and more - customized to your specific business needs.</p>
+                    <h3>Instant Download</h3>
+                    <p>Download your finished document as a formatted <strong>HTML file</strong> ready to publish, or as <strong>Markdown</strong> for further editing or copy straight to clipboard.</p>
                 </div>
             </div>
-            
-            <p class="disclaimer">While our generator creates comprehensive terms based on industry standards, we recommend having the final document reviewed by a qualified attorney familiar with your specific business and jurisdiction.</p>
+
+            <p class="disclaimer">While our generator creates comprehensive documents based on industry best practices, we recommend having the final document reviewed by a qualified legal professional familiar with your specific jurisdiction.</p>
         </div>
     </section>
-    
+
+    <!-- ═══════════════════════════ HEADER ══════════════════════════════ -->
     <header>
-        <h1>Terms of Service Generator</h1>
-        <p>Create professional, compliant terms of service tailored to your business in minutes</p>
+        <h1><i class="fas fa-file-contract"></i> Legal Document Generator</h1>
+        <p>Generate professional, jurisdiction aware legal documents in minutes, no legal fees required</p>
     </header>
 
+    <!-- ═══════════════════════════ MAIN ════════════════════════════════ -->
     <main>
-        <form id="tos-form">
-            <div class="form-group">
-                <label for="business-name">Business Name:</label>
-                <input type="text" id="business-name" required placeholder="Enter your business name">
+
+        <!-- ── Document type tab bar ── -->
+        <nav class="doc-type-tabs" role="tablist" aria-label="Document type">
+            <div class="tab-group-label">Business Policies</div>
+            <button class="tab-btn active" data-tab="tos"         role="tab" aria-selected="true">
+                <i class="fas fa-file-alt"></i><span>Terms of Service</span>
+            </button>
+            <button class="tab-btn" data-tab="eula"               role="tab" aria-selected="false">
+                <i class="fas fa-compact-disc"></i><span>EULA</span>
+            </button>
+            <button class="tab-btn" data-tab="sla"                role="tab" aria-selected="false">
+                <i class="fas fa-server"></i><span>Service Level Agreement</span>
+            </button>
+
+            <div class="tab-group-label">Business Agreements</div>
+            <button class="tab-btn" data-tab="nda"                role="tab" aria-selected="false">
+                <i class="fas fa-lock"></i><span>NDA</span>
+            </button>
+            <button class="tab-btn" data-tab="partnership"        role="tab" aria-selected="false">
+                <i class="fas fa-people-arrows"></i><span>Partnership Agreement</span>
+            </button>
+            <button class="tab-btn" data-tab="consulting"         role="tab" aria-selected="false">
+                <i class="fas fa-handshake"></i><span>Consulting Agreement</span>
+            </button>
+
+            <div class="tab-group-label">Employment &amp; Contractors</div>
+            <button class="tab-btn" data-tab="employment"         role="tab" aria-selected="false">
+                <i class="fas fa-user-tie"></i><span>Employment Contract</span>
+            </button>
+            <button class="tab-btn" data-tab="freelance"          role="tab" aria-selected="false">
+                <i class="fas fa-pencil-ruler"></i><span>Freelance Contract</span>
+            </button>
+
+            <div class="tab-group-label">Creator &amp; Marketing</div>
+            <button class="tab-btn" data-tab="influencer"         role="tab" aria-selected="false">
+                <i class="fas fa-star"></i><span>Influencer / Brand Deal</span>
+            </button>
+            <button class="tab-btn" data-tab="sponsorship"        role="tab" aria-selected="false">
+                <i class="fas fa-trophy"></i><span>Sponsorship Agreement</span>
+            </button>
+            <button class="tab-btn" data-tab="affiliate"          role="tab" aria-selected="false">
+                <i class="fas fa-link"></i><span>Affiliate Agreement</span>
+            </button>
+        </nav>
+
+        <!-- ══════════════════════════════════════════════════════════════
+             TAB 1 — Terms of Service (existing flow)
+        ═══════════════════════════════════════════════════════════════════ -->
+        <div class="tab-content active" id="tab-tos" role="tabpanel">
+            <div class="doc-type-badge tos-badge">
+                <i class="fas fa-file-alt"></i> Terms of Service Generator
             </div>
 
-            <div class="form-group">
-                <label for="business-type">Business Type:</label>
-                <select id="business-type" required>
-                    <option value="">Select type...</option>
-                    <option value="ecommerce">E-commerce</option>
-                    <option value="saas">SaaS</option>
-                    <option value="content">Content Creator</option>
-                    <option value="marketplace">Marketplace</option>
-                    <option value="membership">Membership/Subscription Site</option>
-                    <option value="education">Educational Platform</option>
-                    <option value="mobile">Mobile Application</option>
-                    <option value="consulting">Consulting/Professional Services</option>
-                    <option value="nonprofit">Non-Profit</option>
-                    <option value="healthcare">Healthcare Services</option>
-                    <option value="fintech">Financial Technology</option>
-                    <option value="affiliate">Affiliate Marketing</option>
-                    <option value="dropshipping">Dropshipping</option>
-                    <option value="community">Community Forums</option>
-                    <option value="blog">Blog</option>
-                    <option value="foodservice">Food Service</option>
-                    <option value="bot">Discord Bot</option>
-                </select>
-            </div>
+            <form id="tos-form">
+                <div class="form-group">
+                    <label for="business-name">Business Name: <span class="required-star">*</span></label>
+                    <input type="text" id="business-name" required placeholder="Enter your business name">
+                </div>
 
-            <div class="form-group">
-                <label for="jurisdiction">Primary Jurisdiction:</label>
-                <select id="jurisdiction" required>
-                    <option value="">Select jurisdiction...</option>
-                    <option value="us">United States</option>
-                    <option value="eu">European Union</option>
-                    <option value="uk">United Kingdom</option>
-                    <option value="ca">Canada</option>
-                    <option value="au">Australia</option>
-                    <option value="br">Brazil</option>
-                    <option value="za">South Africa</option>
-                    <option value="generic">International/Other</option>
-                </select>
-            </div>
-            
-            <div class="form-group">
-                <label>Compliance Modules:</label>
-                <p class="field-description">Select the regulatory frameworks that apply to your business</p>
-                <div class="checkbox-group" id="compliance-modules">
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="compliance-gdpr" name="compliance" value="gdpr">
-                        <label for="compliance-gdpr">General Data Protection Regulation (GDPR) - European Union</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="compliance-ccpa" name="compliance" value="ccpa">
-                        <label for="compliance-ccpa">California Consumer Privacy Act (CCPA) - California, US</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="compliance-lgpd" name="compliance" value="lgpd">
-                        <label for="compliance-lgpd">Lei Geral de Proteção de Dados (LGPD) - Brazil</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="compliance-pipeda" name="compliance" value="pipeda">
-                        <label for="compliance-pipeda">Personal Information Protection and Electronic Documents Act (PIPEDA) - Canada</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="compliance-popi" name="compliance" value="popi">
-                        <label for="compliance-popi">Protection of Personal Information Act (POPIA) - South Africa</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="compliance-apps" name="compliance" value="apps">
-                        <label for="compliance-apps">Australian Privacy Principles (APPs) - Australia</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="compliance-coppa" name="compliance" value="coppa">
-                        <label for="compliance-coppa">Children's Online Privacy Protection Act (COPPA) - United States</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="compliance-casl" name="compliance" value="casl">
-                        <label for="compliance-casl">Canada's Anti-Spam Legislation (CASL) - Canada</label>
+                <div class="form-group">
+                    <label for="business-type">Business Type: <span class="required-star">*</span></label>
+                    <select id="business-type" required>
+                        <option value="">Select type…</option>
+                        <option value="ecommerce">E-commerce</option>
+                        <option value="saas">SaaS</option>
+                        <option value="content">Content Creator</option>
+                        <option value="marketplace">Marketplace</option>
+                        <option value="membership">Membership / Subscription Site</option>
+                        <option value="education">Educational Platform</option>
+                        <option value="mobile">Mobile Application</option>
+                        <option value="consulting">Consulting / Professional Services</option>
+                        <option value="nonprofit">Non-Profit</option>
+                        <option value="healthcare">Healthcare Services</option>
+                        <option value="fintech">Financial Technology</option>
+                        <option value="affiliate">Affiliate Marketing</option>
+                        <option value="dropshipping">Dropshipping</option>
+                        <option value="community">Community Forums</option>
+                        <option value="blog">Blog</option>
+                        <option value="foodservice">Food Service</option>
+                        <option value="bot">Discord Bot</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="jurisdiction">Primary Jurisdiction: <span class="required-star">*</span></label>
+                    <select id="jurisdiction" required>
+                        <option value="">Select jurisdiction…</option>
+                        <option value="us">United States</option>
+                        <option value="eu">European Union</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="ca">Canada</option>
+                        <option value="au">Australia</option>
+                        <option value="br">Brazil</option>
+                        <option value="za">South Africa</option>
+                        <option value="generic">International / Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Compliance Modules:</label>
+                    <p class="field-description">Select the regulatory frameworks that apply to your business</p>
+                    <div class="checkbox-group" id="compliance-modules">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="compliance-gdpr" name="compliance" value="gdpr">
+                            <label for="compliance-gdpr">GDPR - General Data Protection Regulation (EU)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="compliance-ccpa" name="compliance" value="ccpa">
+                            <label for="compliance-ccpa">CCPA - California Consumer Privacy Act (US)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="compliance-lgpd" name="compliance" value="lgpd">
+                            <label for="compliance-lgpd">LGPD - Lei Geral de Proteção de Dados (Brazil)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="compliance-pipeda" name="compliance" value="pipeda">
+                            <label for="compliance-pipeda">PIPEDA - Personal Information Protection Act (Canada)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="compliance-popi" name="compliance" value="popi">
+                            <label for="compliance-popi">POPIA - Protection of Personal Information Act (South Africa)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="compliance-apps" name="compliance" value="apps">
+                            <label for="compliance-apps">APPs - Australian Privacy Principles (Australia)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="compliance-coppa" name="compliance" value="coppa">
+                            <label for="compliance-coppa">COPPA - Children's Online Privacy Protection Act (US)</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="compliance-casl" name="compliance" value="casl">
+                            <label for="compliance-casl">CASL - Canada's Anti Spam Legislation</label>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="form-group">
-                <label>Specialized Clauses:</label>
-                <p class="field-description">Clauses that are relevant to your selected business type</p>
-                <div class="checkbox-group" id="specialized-clauses">
-                    <!-- This will be populated by JavaScript -->
-                </div>
-                <span class="recommendation-note">✓ = Recommended for your business type (checked by default)</span>
-            </div>
 
-            <div class="form-actions">
-                <button type="submit" id="generate-button">Generate Terms of Service</button>
-                <div id="loading-indicator" class="d-none">
-                    <span class="spinner"></span> Generating your document...
+                <div class="form-group">
+                    <label>Specialised Clauses:</label>
+                    <p class="field-description">Clauses relevant to your selected business type (recommended ones are pre checked)</p>
+                    <div class="checkbox-group" id="specialized-clauses">
+                        <!-- Populated by app.js -->
+                    </div>
+                    <span class="recommendation-note">&#10003; = Recommended for your business type (checked by default)</span>
                 </div>
-            </div>
-        </form>
-        
 
-        
+                <div class="form-actions">
+                    <button type="submit" id="generate-button">
+                        <i class="fas fa-magic"></i> Generate Terms of Service
+                    </button>
+                    <div id="loading-indicator" class="d-none">
+                        <span class="spinner"></span> Generating your document…
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════
+             TAB 2 — NDA
+        ═══════════════════════════════════════════════════════════════════ -->
+        <div class="tab-content" id="tab-nda" role="tabpanel">
+            <div class="doc-type-badge nda-badge">
+                <i class="fas fa-lock"></i> Non-Disclosure Agreement (NDA)
+            </div>
+            <p class="doc-type-description">A legally binding agreement protecting confidential information shared between two parties, mutual (both parties share) or one-way (only one party discloses).</p>
+
+            <form id="nda-form" class="doc-form">
+                <!-- Fields injected dynamically by doc-generator.js -->
+                <div id="nda-fields"></div>
+
+                <div class="form-actions">
+                    <button type="submit">
+                        <i class="fas fa-file-signature"></i> Generate NDA
+                    </button>
+                    <div class="loading-indicator d-none"><span class="spinner"></span> Generating…</div>
+                </div>
+            </form>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════
+             TAB 3 — Freelance Contract
+        ═══════════════════════════════════════════════════════════════════ -->
+        <div class="tab-content" id="tab-freelance" role="tabpanel">
+            <div class="doc-type-badge freelance-badge">
+                <i class="fas fa-pencil-ruler"></i> Freelance Service Agreement
+            </div>
+            <p class="doc-type-description">A project-based service agreement between a client and an independent contractor covering scope, payment, IP ownership, and termination.</p>
+
+            <form id="freelance-form" class="doc-form">
+                <div id="freelance-fields"></div>
+
+                <div class="form-actions">
+                    <button type="submit">
+                        <i class="fas fa-file-signature"></i> Generate Freelance Contract
+                    </button>
+                    <div class="loading-indicator d-none"><span class="spinner"></span> Generating…</div>
+                </div>
+            </form>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════
+             TAB 4 — Employment Contract
+        ═══════════════════════════════════════════════════════════════════ -->
+        <div class="tab-content" id="tab-employment" role="tabpanel">
+            <div class="doc-type-badge employment-badge">
+                <i class="fas fa-user-tie"></i> Employment Agreement
+            </div>
+            <p class="doc-type-description">A formal employment agreement covering position, compensation, working hours, leave, confidentiality, IP, and termination terms.</p>
+
+            <form id="employment-form" class="doc-form">
+                <div id="employment-fields"></div>
+
+                <div class="form-actions">
+                    <button type="submit">
+                        <i class="fas fa-file-signature"></i> Generate Employment Contract
+                    </button>
+                    <div class="loading-indicator d-none"><span class="spinner"></span> Generating…</div>
+                </div>
+            </form>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════
+             TAB 5 — Consulting Agreement
+        ═══════════════════════════════════════════════════════════════════ -->
+        <div class="tab-content" id="tab-consulting" role="tabpanel">
+            <div class="doc-type-badge consulting-badge">
+                <i class="fas fa-handshake"></i> Consulting Agreement
+            </div>
+            <p class="doc-type-description">A professional services agreement for consultants covering scope, deliverables, fees, IP, confidentiality, exclusivity, and termination.</p>
+
+            <form id="consulting-form" class="doc-form">
+                <div id="consulting-fields"></div>
+
+                <div class="form-actions">
+                    <button type="submit">
+                        <i class="fas fa-file-signature"></i> Generate Consulting Agreement
+                    </button>
+                    <div class="loading-indicator d-none"><span class="spinner"></span> Generating…</div>
+                </div>
+            </form>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════
+             TAB — SLA
+        ═══════════════════════════════════════════════════════════════════ -->
+        <div class="tab-content" id="tab-sla" role="tabpanel">
+            <div class="doc-type-badge sla-badge">
+                <i class="fas fa-server"></i> Service Level Agreement (SLA)
+            </div>
+            <p class="doc-type-description">Defines uptime commitments, response times, service credit remedies, and maintenance windows between a service provider and client. Essential for SaaS, hosting, and managed service providers.</p>
+            <form id="sla-form" class="doc-form">
+                <div id="sla-fields"></div>
+                <div class="form-actions">
+                    <button type="submit"><i class="fas fa-file-signature"></i> Generate SLA</button>
+                    <div class="loading-indicator d-none"><span class="spinner"></span> Generating…</div>
+                </div>
+            </form>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════
+             TAB — EULA
+        ═══════════════════════════════════════════════════════════════════ -->
+        <div class="tab-content" id="tab-eula" role="tabpanel">
+            <div class="doc-type-badge eula-badge">
+                <i class="fas fa-compact-disc"></i> End User Licence Agreement (EULA)
+            </div>
+            <p class="doc-type-description">Governs how end users may install and use your software, app, or digital product covering permitted use, prohibited actions, IP ownership, updates, warranties, and termination.</p>
+            <form id="eula-form" class="doc-form">
+                <div id="eula-fields"></div>
+                <div class="form-actions">
+                    <button type="submit"><i class="fas fa-file-signature"></i> Generate EULA</button>
+                    <div class="loading-indicator d-none"><span class="spinner"></span> Generating…</div>
+                </div>
+            </form>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════
+             TAB — Partnership Agreement
+        ═══════════════════════════════════════════════════════════════════ -->
+        <div class="tab-content" id="tab-partnership" role="tabpanel">
+            <div class="doc-type-badge partnership-badge">
+                <i class="fas fa-people-arrows"></i> Business Partnership Agreement
+            </div>
+            <p class="doc-type-description">Formally establishes a business partnership covering capital contributions, profit/loss sharing, decision-making authority, IP ownership, non-compete obligations, and dissolution procedures. Essential for co-founders.</p>
+            <form id="partnership-form" class="doc-form">
+                <div id="partnership-fields"></div>
+                <div class="form-actions">
+                    <button type="submit"><i class="fas fa-file-signature"></i> Generate Partnership Agreement</button>
+                    <div class="loading-indicator d-none"><span class="spinner"></span> Generating…</div>
+                </div>
+            </form>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════
+             TAB — Influencer / Brand Deal
+        ═══════════════════════════════════════════════════════════════════ -->
+        <div class="tab-content" id="tab-influencer" role="tabpanel">
+            <div class="doc-type-badge influencer-badge">
+                <i class="fas fa-star"></i> Influencer / Brand Collaboration Agreement
+            </div>
+            <p class="doc-type-description">A brand deal agreement for content creators and marketers covering deliverables, content approval, compensation, IP usage rights, exclusivity windows, and FTC/ASA disclosure requirements.</p>
+            <form id="influencer-form" class="doc-form">
+                <div id="influencer-fields"></div>
+                <div class="form-actions">
+                    <button type="submit"><i class="fas fa-file-signature"></i> Generate Influencer Agreement</button>
+                    <div class="loading-indicator d-none"><span class="spinner"></span> Generating…</div>
+                </div>
+            </form>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════
+             TAB — Sponsorship Agreement
+        ═══════════════════════════════════════════════════════════════════ -->
+        <div class="tab-content" id="tab-sponsorship" role="tabpanel">
+            <div class="doc-type-badge sponsorship-badge">
+                <i class="fas fa-trophy"></i> Sponsorship Agreement
+            </div>
+            <p class="doc-type-description">Formalises sponsorship arrangements for events, podcasts, newsletters, sports teams, and online platforms covering fees, deliverables, branding rights, category exclusivity, and cancellation terms.</p>
+            <form id="sponsorship-form" class="doc-form">
+                <div id="sponsorship-fields"></div>
+                <div class="form-actions">
+                    <button type="submit"><i class="fas fa-file-signature"></i> Generate Sponsorship Agreement</button>
+                    <div class="loading-indicator d-none"><span class="spinner"></span> Generating…</div>
+                </div>
+            </form>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════════════
+             TAB — Affiliate / Referral Agreement
+        ═══════════════════════════════════════════════════════════════════ -->
+        <div class="tab-content" id="tab-affiliate" role="tabpanel">
+            <div class="doc-type-badge affiliate-badge">
+                <i class="fas fa-link"></i> Affiliate &amp; Referral Agreement
+            </div>
+            <p class="doc-type-description">Governs affiliate marketing programmes covering commission structures, attribution windows, payout thresholds, permitted promotion methods, FTC disclosure obligations, and fraud prevention.</p>
+            <form id="affiliate-form" class="doc-form">
+                <div id="affiliate-fields"></div>
+                <div class="form-actions">
+                    <button type="submit"><i class="fas fa-file-signature"></i> Generate Affiliate Agreement</button>
+                    <div class="loading-indicator d-none"><span class="spinner"></span> Generating…</div>
+                </div>
+            </form>
+        </div>
+
+        <!-- ═══════════════════════════ RESULT ══════════════════════════════ -->
         <div id="result" class="hidden">
-            <h2>Your Terms of Service</h2>
+            <div class="result-header">
+                <h2 id="result-title">Your Document</h2>
+                <span id="result-badge" class="result-doc-badge"></span>
+            </div>
             <div id="preview"></div>
             <div class="actions">
-                <button id="download-html">Download as HTML</button>
-                <button id="download-md">Download as Markdown</button>
-                <button id="copy">Copy to Clipboard</button>
+                <button id="download-html"><i class="fas fa-code"></i> Download as HTML</button>
+                <button id="download-md"><i class="fab fa-markdown"></i> Download as Markdown</button>
+                <button id="copy"><i class="fas fa-copy"></i> Copy to Clipboard</button>
             </div>
         </div>
+
     </main>
 
     <div class="spacer my-5 py-5"></div>
 
+    <!-- ═══════════════════════════ BENEFITS ════════════════════════════ -->
     <section id="benefits" class="benefits-section">
         <div class="benefits-container">
             <div class="benefits-header">
-                <h2>Why Choose Our Terms of Service Generator?</h2>
-                <p class="lead">Create professional, customized legal documents in minutes without the high legal fees</p>
+                <h2>Why Use Our Legal Document Generator?</h2>
+                <p class="lead">Professional, customised legal documents in minutes, zero cost, no account required</p>
             </div>
-            
+
             <div class="benefits-grid">
                 <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-balance-scale"></i>
-                    </div>
+                    <div class="benefit-icon"><i class="fas fa-balance-scale"></i></div>
                     <h3>Legally Sound</h3>
-                    <p>Our templates are crafted with legal best practices and regularly updated to reflect current laws and regulations.</p>
+                    <p>Templates crafted to industry standards and updated to reflect current laws and regulations across multiple jurisdictions.</p>
                 </div>
-                
                 <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-tools"></i>
-                    </div>
-                    <h3>Customizable</h3>
-                    <p>Tailor your terms to your specific business type, jurisdiction, and needs with our specialized clauses and compliance modules.</p>
+                    <div class="benefit-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>5 Document Types</h3>
+                    <p>Terms of Service, NDAs, Freelance Contracts, Employment Contracts, and Consulting Agreements, the documents every business needs.</p>
                 </div>
-                
                 <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-bolt"></i>
-                    </div>
-                    <h3>Quick & Easy</h3>
-                    <p>Generate comprehensive terms of service in minutes without any legal expertise required.</p>
+                    <div class="benefit-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Quick &amp; Easy</h3>
+                    <p>Fill in a form, click generate. Get a complete, ready to use legal document in seconds, no legal expertise required.</p>
                 </div>
-                
                 <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
+                    <div class="benefit-icon"><i class="fas fa-globe"></i></div>
                     <h3>International Support</h3>
-                    <p>Coverage for multiple jurisdictions including the US, EU, UK, Canada, and Australia.</p>
+                    <p>Documents tailored for the US, EU, UK, Canada, Australia, Brazil, and South Africa or generic international use.</p>
                 </div>
-                
                 <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Compliance Focus</h3>
-                    <p>Built-in modules for GDPR, CCPA, and other regulatory frameworks to help keep you compliant.</p>
+                    <div class="benefit-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Compliance Ready</h3>
+                    <p>Built in compliance modules for GDPR, CCPA, LGPD, PIPEDA, POPIA, APPs, COPPA, and CASL.</p>
                 </div>
-                
                 <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-gift"></i>
-                    </div>
+                    <div class="benefit-icon"><i class="fas fa-gift"></i></div>
                     <h3>Completely Free</h3>
-                    <p>All features are available at no cost, with no hidden fees or premium restrictions.</p>
+                    <p>Every document type, every jurisdiction, every feature available at no cost with no hidden fees or premium tiers.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- ═══════════════════════════ FOOTER ══════════════════════════════ -->
     <footer>
-        <p>This tool is for informational purposes only and not a substitute for legal advice. Always consult with a qualified legal professional.</p>
+        <p>This tool is for informational purposes only and is not a substitute for legal advice. Always consult a qualified legal professional before relying on any generated document.</p>
         <p><a href="https://github.com/tempest-solutions-company/terms-of-service-generator" target="_blank">View on GitHub</a></p>
         <p>&copy; <span id="current-year"></span> Tempest Solutions</p>
     </footer>
 
-    <script>
-        document.getElementById('current-year').textContent = new Date().getFullYear();
-    </script>
+    <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+
+    <!-- Core generators -->
     <script src="js/generator.js"></script>
+    <script src="js/doc-generator.js"></script>
+
+    <!-- App logic -->
     <script src="js/app.js"></script>
-    
-    <script>
-        // Add custom behavior for Discord bot selection
-        document.addEventListener('DOMContentLoaded', function() {
-            const businessTypeSelect = document.getElementById('business-type');
-            
-            if (businessTypeSelect) {
-                businessTypeSelect.addEventListener('change', function() {
-                    if (this.value === 'bot') {
-                        // Check for Discord-specific clauses once they're loaded
-                        setTimeout(() => {
-                            // Auto-select bot-specific clauses
-                            const botCommandsCheckbox = document.querySelector('input[value="bot_commands"]');
-                            const discordComplianceCheckbox = document.querySelector('input[value="discord_compliance"]');
-                            
-                            if (botCommandsCheckbox) botCommandsCheckbox.checked = true;
-                            if (discordComplianceCheckbox) discordComplianceCheckbox.checked = true;
-                            
-                            // You might also want to check other relevant clauses such as
-                            const dataProcessingCheckbox = document.querySelector('input[value="data_processing"]');
-                            if (dataProcessingCheckbox) dataProcessingCheckbox.checked = true;
-                        }, 300); // Short delay to ensure the checkboxes are rendered
-                    }
-                });
-            }
-        });
-    </script>
 </body>
 </html>

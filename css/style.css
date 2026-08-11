@@ -402,6 +402,219 @@ input[type="checkbox"]:checked {
   margin-bottom: 0;
 }
 
+/* ═══════════════════════════════════════════════════════════════════════════
+   DOCUMENT TYPE TABS
+═══════════════════════════════════════════════════════════════════════════ */
+
+.doc-type-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 28px;
+  padding: 10px 12px;
+  background: #f0f4f8;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  row-gap: 8px;
+}
+
+/* Section label within tab bar */
+.tab-group-label {
+  width: 100%;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #888;
+  padding: 4px 4px 0;
+  margin-top: 4px;
+}
+.tab-group-label:first-child {
+  margin-top: 0;
+}
+
+.tab-btn {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 18px;
+  background: transparent;
+  color: #555;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.tab-btn:hover {
+  background: #fff;
+  color: var(--primary-color);
+  border-color: #c8d8ea;
+}
+
+.tab-btn.active {
+  background: var(--primary-color);
+  color: #fff;
+  border-color: var(--primary-color);
+  box-shadow: 0 2px 8px rgba(42, 88, 133, 0.35);
+}
+
+.tab-btn i {
+  font-size: 13px;
+}
+
+/* ── Tab panels ── */
+.tab-content {
+  display: none;
+  animation: fadeIn 0.25s ease;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   DOCUMENT TYPE BADGE (shown at top of each form panel)
+═══════════════════════════════════════════════════════════════════════════ */
+
+.doc-type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+}
+
+.tos-badge         { background: #e9f0f7; color: #2a5885; }
+.nda-badge         { background: #fff3e0; color: #e65100; }
+.freelance-badge   { background: #e8f5e9; color: #2e7d32; }
+.employment-badge  { background: #ede7f6; color: #5e35b1; }
+.consulting-badge  { background: #fce4ec; color: #c62828; }
+.sla-badge         { background: #e0f7fa; color: #00695c; }
+.eula-badge        { background: #e8eaf6; color: #283593; }
+.partnership-badge { background: #f3e5f5; color: #6a1b9a; }
+.influencer-badge  { background: #fff8e1; color: #f57f17; }
+.sponsorship-badge { background: #fbe9e7; color: #bf360c; }
+.affiliate-badge   { background: #e0f2f1; color: #00695c; }
+
+.doc-type-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 24px;
+  padding: 12px 16px;
+  background: #f9f9f9;
+  border-left: 3px solid var(--border-color);
+  border-radius: 0 6px 6px 0;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   DYNAMIC FORMS (new doc types)
+═══════════════════════════════════════════════════════════════════════════ */
+
+.doc-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.doc-form textarea:focus,
+.doc-form input:focus,
+.doc-form select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(42, 88, 133, 0.12);
+}
+
+/* Required star */
+.required-star {
+  color: #e53935;
+  font-weight: bold;
+}
+
+/* Loading indicator shared style */
+.loading-indicator {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  color: var(--primary-color);
+  font-weight: 500;
+  gap: 10px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   RESULT SECTION IMPROVEMENTS
+═══════════════════════════════════════════════════════════════════════════ */
+
+.result-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.result-doc-badge {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.3px;
+}
+
+.result-doc-badge.badge-tos         { background: #e9f0f7; color: #2a5885; }
+.result-doc-badge.badge-nda         { background: #fff3e0; color: #e65100; }
+.result-doc-badge.badge-freelance   { background: #e8f5e9; color: #2e7d32; }
+.result-doc-badge.badge-employment  { background: #ede7f6; color: #5e35b1; }
+.result-doc-badge.badge-consulting  { background: #fce4ec; color: #c62828; }
+.result-doc-badge.badge-sla         { background: #e0f7fa; color: #00695c; }
+.result-doc-badge.badge-eula        { background: #e8eaf6; color: #283593; }
+.result-doc-badge.badge-partnership { background: #f3e5f5; color: #6a1b9a; }
+.result-doc-badge.badge-influencer  { background: #fff8e1; color: #f57f17; }
+.result-doc-badge.badge-sponsorship { background: #fbe9e7; color: #bf360c; }
+.result-doc-badge.badge-affiliate   { background: #e0f2f1; color: #00695c; }
+
+/* Rendered document styles inside #preview */
+#preview h2 { color: var(--primary-color); font-size: 1.25em; margin: 1.2em 0 0.4em; }
+#preview h3 { color: #333; font-size: 1.05em; margin: 1em 0 0.3em; border-bottom: 1px solid #e5e5e5; padding-bottom: 3px; }
+#preview p  { margin: 0.4em 0; line-height: 1.6; }
+#preview hr.doc-divider { border: none; border-top: 2px solid #ccc; margin: 1.8em 0; }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HEADER ICON
+═══════════════════════════════════════════════════════════════════════════ */
+
+header h1 i {
+  margin-right: 8px;
+  opacity: 0.85;
+}
+
+/* Form actions row */
+.form-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
 /* Make the section responsive */
 @media (max-width: 992px) {
   .benefits-grid {
@@ -429,4 +642,12 @@ input[type="checkbox"]:checked {
   .benefit-card {
     padding: 25px;
   }
+}
+
+/* Responsive tabs */
+@media (max-width: 680px) {
+  .tab-btn span       { display: none; }
+  .tab-btn            { padding: 10px 12px; }
+  .doc-type-tabs      { gap: 4px; }
+  .tab-group-label    { font-size: 9px; }
 }
