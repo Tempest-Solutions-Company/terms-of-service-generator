@@ -36,7 +36,7 @@ All document types can be tailored to:
 - South Africa
 - Generic International
 
-### Terms of Service — Business Templates
+### Terms of Service - Business Templates
 Specialised templates for 17+ business types including:
 - E-commerce, SaaS, Content Creators, Marketplaces, Membership Sites
 - Educational Platforms, Mobile Applications, Consulting Services
@@ -44,14 +44,14 @@ Specialised templates for 17+ business types including:
 - Community Forums, Blogs, Food Service, Discord Bots
 
 ### Regulatory Compliance Modules (Terms of Service)
-- **GDPR** — General Data Protection Regulation (EU)
-- **CCPA** — California Consumer Privacy Act (US)
-- **LGPD** — Lei Geral de Proteção de Dados (Brazil)
-- **PIPEDA** — Personal Information Protection and Electronic Documents Act (Canada)
-- **POPIA** — Protection of Personal Information Act (South Africa)
-- **APPs** — Australian Privacy Principles
-- **COPPA** — Children's Online Privacy Protection Act (US)
-- **CASL** — Canada's Anti-Spam Legislation
+- **GDPR** - General Data Protection Regulation (EU)
+- **CCPA** - California Consumer Privacy Act (US)
+- **LGPD** - Lei Geral de Proteção de Dados (Brazil)
+- **PIPEDA** - Personal Information Protection and Electronic Documents Act (Canada)
+- **POPIA** - Protection of Personal Information Act (South Africa)
+- **APPs** - Australian Privacy Principles
+- **COPPA** - Children's Online Privacy Protection Act (US)
+- **CASL** - Canada's Anti Spam Legislation
 
 ### Specialised Clause Library (Terms of Service)
 Optional clauses for: Age Verification, International Shipping, Virtual Events, API Usage, User Generated Content, Data Processing Agreement, Subscription Management, Accessibility Compliance, Dispute Resolution, Intellectual Property, and more.
@@ -97,8 +97,8 @@ const document = tosGenerator.generate({
 │   ├── doc-generator.js        # DocumentGenerator class (NDA, Freelance, Employment, Consulting)
 │   └── app.js                  # UI logic, tab switching, form handling
 ├── data/
-│   ├── templates.json          # Business-type TOS templates
-│   ├── jurisdictions.json      # Jurisdiction-specific clauses
+│   ├── templates.json          # Business type TOS templates
+│   ├── jurisdictions.json      # Jurisdiction specific clauses
 │   ├── compliance_modules.json # Regulatory compliance modules
 │   ├── clause_library.json     # Specialised TOS clauses
 │   └── documents.json          # Templates + field definitions for new doc types
