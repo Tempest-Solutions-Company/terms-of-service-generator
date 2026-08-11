@@ -1,19 +1,19 @@
 # Legal Document Generator
 
-A comprehensive, free tool for generating professionally-structured legal documents — tailored to your business type and jurisdiction. No account required, no fees, runs entirely in the browser.
+A comprehensive, free tool for generating professionally structured legal documents tailored to your business type and jurisdiction. No account required, no fees, runs entirely in the browser.
 
 ---
 
 ## Document Types
 
 ### Terms of Service
-Generate business-specific Terms of Service with industry-relevant clauses, jurisdiction-aware provisions, and built-in compliance modules. Supports 17 business types across 8 jurisdictions.
+Generate business specific Terms of Service with industry-relevant clauses, jurisdiction aware provisions, and built in compliance modules. Supports 17 business types across 8 jurisdictions.
 
 ### Non-Disclosure Agreement (NDA)
-Generate mutual or one-way NDAs with clearly defined confidentiality obligations, purpose scope, duration, exception clauses, and signature blocks.
+Generate mutual or one way NDAs with clearly defined confidentiality obligations, purpose scope, duration, exception clauses, and signature blocks.
 
 ### Freelance Contract
-Generate project-based service agreements covering scope of work, payment schedule, IP ownership, revision rounds, confidentiality, and termination — tailored to the chosen jurisdiction.
+Generate project based service agreements covering scope of work, payment schedule, IP ownership, revision rounds, confidentiality, and termination, tailored to the chosen jurisdiction.
 
 ### Employment Contract
 Generate comprehensive employment agreements covering job title, employment type, compensation, working hours, annual leave, probationary periods, confidentiality, IP assignment, non-compete clauses, and termination notice.
@@ -54,16 +54,16 @@ Specialised templates for 17+ business types including:
 - **CASL** — Canada's Anti-Spam Legislation
 
 ### Specialised Clause Library (Terms of Service)
-Optional clauses for: Age Verification, International Shipping, Virtual Events, API Usage, User-Generated Content, Data Processing Agreement, Subscription Management, Accessibility Compliance, Dispute Resolution, Intellectual Property, and more.
+Optional clauses for: Age Verification, International Shipping, Virtual Events, API Usage, User Generated Content, Data Processing Agreement, Subscription Management, Accessibility Compliance, Dispute Resolution, Intellectual Property, and more.
 
 ---
 
 ## Multiple Ways to Use
 
 ### Web Interface
-Open `index.html` in any modern browser — no server or build step required. Or visit the hosted version at https://tempest-solutions-company.github.io/terms-of-service-generator.
+Open `index.html` in any modern browser, no server or build step required. Or visit the hosted version at https://tempest-solutions-company.github.io/terms-of-service-generator.
 
-### Command-Line Interface
+### Command Line Interface
 
 ```bash
 npm install -g terms-of-service-generator
@@ -128,7 +128,7 @@ All document templates live in the `data/` directory:
 | File | Purpose |
 |------|---------|
 | `templates.json` | TOS templates by business type |
-| `jurisdictions.json` | Jurisdiction-specific clause text |
+| `jurisdictions.json` | Jurisdiction specific clause text |
 | `compliance_modules.json` | Regulatory compliance sections |
 | `clause_library.json` | Optional specialised TOS clauses |
 | `documents.json` | NDA, Freelance, Employment & Consulting templates and field definitions |
